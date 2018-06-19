@@ -1,3 +1,5 @@
+//https://www.codewars.com/kata/strip-comments/javascript
+
 function solution(input, markers) {
   return input.split('\n').map(line => {
     return line.slice(0, getFirstMarkerIndex(line, markers)).replace(/\W+$/, "");
