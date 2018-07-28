@@ -1,0 +1,1 @@
+f=[]['map']['constructor']('return "Hello, world!"')
